@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+html {
+    background-color: #FAF9F6;
+}
+*{
+    font-family: 'Sevillana', cursive;
+}
+#box0 {
+    /* border: 2px dotted brown; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-card {
+    /* border: 8px solid #2779a7; */
+    display: flex;
+    width: 414px;
+    height: 450px;
+    border-radius: 42px;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /* align-content: center; */
+}
+#box1{
+    /* border: 3px solid blue; */
+    background-color: #49c5b6;
+    display: block;
+    height: 170px;
+    width: 414px;
+    z-index: -1;
+    border-top-left-radius:31px ;
+    border-top-right-radius:31px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#photo-box {
+    border: 5px solid white;
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+     background-image: url("profile\ photo.jpg");
+     background-size: cover;
+     position: relative;
+     top: 13px;
+}
+#box2 {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 277px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+#name {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Sevillana', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    bottom: 45px;
+}
+#profession {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Sevillana', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 45px;
+}
+#twitter {
+    width: 30px;
+    padding: 1px 6px 1px 6px;
+}
+#facebook {
+    width: 30px;
+    padding: 1px 6px 1px 6px;
+}
+#github {
+    width: 30px;
+    padding: 1px 6px 1px 6px;
+}
+#insta {
+    width: 30px;
+    padding: 1px 6px 1px 6px;
+}
+#links {
+    /* border: 2px solid black; */
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+#buttons {
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+.button {
+    width: 120px;
+    height: 100%;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #49c5b6;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #49c5b6;
+}
+#message {
+    margin-left: 18px;
+}
+#profile {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    justify-content: center;
+
+}
+.profile-img {
+    width: 20px ;
+    cursor: pointer;
+}
+#likes {
+    position: relative;
+    right: 50px;
+    padding-right: 25px;
+    border-right: 2px solid #e7e7e7;
+
+}
+
+#share {
+    position: relative;
+    left: 50px; 
+    border-left: 2px solid #e7e7e7;
+    padding-left: 25px;
+}
